@@ -9,27 +9,27 @@ use \Magento\Framework\ObjectManagerInterface;
 
 class Testbed extends Command
 {
-    // protected $exampleFactory;
-    // public function __construct(ExampleFactory $manager)
-    // {
-    //     $this->exampleFactory = $example;
-    //     $this->manager = $manager;
-    //     return parent::__construct();
-    // }
-    
-    // protected $manager;            
-    // public function __construct(ObjectManagerInterface $manager)
-    // {
-    //     $this->exampleFactory = $example;
-    //     $this->manager = $manager;
-    //     return parent::__construct();
-    // }
-    
     // protected $pageFactory;
     // public function __construct(\Magento\Cms\Model\PageFactory $pageFactory )
     // {
     //     $this->pageFactory = $pageFactory;
     //     parent::__construct();
+    // }
+    
+    // protected $exampleFactory;
+    // public function __construct(ExampleFactory $example)
+    // {
+    //     $this->exampleFactory = $example;
+    //     return parent::__construct();
+    // }
+    
+    // protected $exampleFactory;
+    // protected $manager;            
+    // public function __construct(ObjectManagerInterface $manager, ExampleFactory $example)
+    // {
+    //     $this->exampleFactory = $example;
+    //     $this->manager = $manager;
+    //     return parent::__construct();
     // }
     
     protected function configure()
